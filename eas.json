@@ -1,0 +1,21 @@
+{
+  "build": {
+    "lsm_todo": {
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "lsm_todo2": {
+      "android": {
+        "gradleCommand": ":app:assembleRelease"
+      }
+    },
+    "lsm_todo3": {
+      "developmentClient": true
+    },
+    "lsm_todo4": {
+      "distribution": "internal"
+    },
+    "production": {}
+  }
+}
